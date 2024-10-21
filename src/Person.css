@@ -1,0 +1,52 @@
+.person{
+    padding-top: 80px;
+    font-family: 'Staatliches', cursive !important;
+
+}
+.personal_data::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.person_pic{
+    margin-left: 15px;
+    padding-right: 18px !important;
+    border-radius: 3px;
+    float: left;
+
+}
+.website_link{
+   text-decoration: none;
+   color: grey;
+}
+.person_bio{
+    margin-left: 15px;
+    line-height:25px;
+    color: grey;
+    letter-spacing: 1.2px;
+    
+}
+.biography{
+    margin-left: 15px !important;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    color: grey;
+}
+#more{
+    display: none;
+}
+.persons_movies{
+    margin-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    font-size: 12px;
+    justify-content: space-between;
+}
+.best_of_movie{
+  padding-right: 15px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  color: white;
+}

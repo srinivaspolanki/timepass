@@ -1,0 +1,56 @@
+#v{
+    z-index: -8;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.movie-title{
+    margin-bottom: -50px;
+    z-index: 2;
+    height: 50PX;
+     background: linear-gradient(to top,transparent, black);
+    text-align: center;
+    width: 100%;
+    padding-top: 2px;
+    letter-spacing: 2px;
+}
+
+.tagline_watch{
+    font-size: 15px;
+    z-index: 10;
+     width: fit-content;
+    margin-top:20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+backdrop-filter: blur( 0px );
+padding: 3px 10px 3px 10px;
+border-radius: 0px;
+-webkit-backdrop-filter: blur( 0px );    
+text-align: center;
+}
+body:-webkit-full-screen{
+    aspect-ratio: 16/9;
+}
+.season_data{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 12px;
+    padding: 10px;
+}
+.season_no:hover{
+    background-color: red !important;
+    color: white !important;
+}
+.ep_no:hover{
+   background-color: white !important;
+   color: black !important;
+}

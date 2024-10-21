@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+
+@media (min-width: 320px) and (max-width: 768px){
+    
+    
+    .year{
+        font-size: 18px;
+        margin-top: 3px;
+        color:rgba(255,255,255,0.5);
+        letter-spacing: 1px;
+        margin-left: 1px;
+        position: relative;
+       }
+    .home{
+        position: absolute;
+         z-index: 3000000;
+         top:5%;
+         left: 1.5%;
+    }
+    .home > a{
+        text-decoration: none !important;
+        color: white !important;
+
+    }
+       .movie-data-container{
+        
+        overscroll-behavior: none;
+       }
+       .movie-info-container{
+        box-sizing: border-box;
+        position: relative;
+        
+    }
+     .movie-inner-details{
+        min-height: 40vh !important;
+        width: 100%;
+     }
+    .youtube{
+        position: absolute;
+        z-index: 1000000 !important;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+  
+    .r-info{
+        padding-right: 10px;
+    }
+    .fade::before{
+        content: '';
+        width: 100%;
+        height: 101%;
+        position: absolute;
+        background: linear-gradient(to bottom,transparent,transparent,black);
+
+        z-index: 1000;
+       }
+    .movie-details{
+        margin-top: -40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        z-index: 100000;
+        position: relative;
+    }
+    
+    .movie-data-container{
+        box-sizing: border-box;
+        position: relative;
+    }
+    .backdrop_container{
+        width: 100%;
+        height: 300px;
+        position: relative;
+        background:#f00;
+    }
+    
+    .backdrop{
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        object-fit: cover;
+    }
+    .movie-pri-desc{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    
+    #i{
+        font-size: 22px !important;
+    }
+    .send{
+        margin-left: -2px !important;
+        margin-top: 1px !important;
+    }
+    .likes{
+        margin-left: -8px !important;
+    }
+    .info-bar{
+        display: flex;
+    }
+    #lo{
+        font-size: 15px;
+        margin-top: 2.5px;
+    }
+    .lang{
+        display: flex;
+        margin-top: 5px;
+        gap: 9px;
+        padding-left: 2px;
+    }
+    .director{
+        display: flex;
+        gap: 5px;
+        margin-top: 14px;
+        letter-spacing: 1px;
+        flex-wrap: wrap;
+    }
+    .tagline{
+        margin-top: 17px;
+        color:rgba(255,255,255,0.5);
+        letter-spacing: 1px;
+        font-size: 15px;
+        line-height: 23px;
+        display: flex;
+        gap: 15px;
+    }
+    .watch{
+        background-color:red;
+        padding: 9.7px;
+        margin-top: 12px;
+        letter-spacing: 1.5px;
+        font-weight: 600;
+       color: white;
+       border-radius: 2px;
+    }
+    .rated{
+        color: black;
+        font-size: 13px;
+        padding-left: 3px;
+        padding-right: 3px;
+        border-radius: 1px;
+        margin-left: 5px !important;
+        background-color: white;
+        text-align: center;
+        position: absolute;
+        bottom: 15%;
+    }
+    .download{
+background: whitesmoke;
+color: black !important;
+font-family: 'Staatliches', cursive !important;
+letter-spacing: 1px;
+
+    }
+    .Actors ,.Awards,.overview{
+        color:rgba(255,255,255,0.5);
+
+    }
+    .loc{
+        display: flex;
+    }
+    .Actors{
+        display: flex;
+        gap: 6px;
+        margin-top: 14px;
+
+    }
+    .rt{
+        margin-top: 1.2px;
+    }
+    #f{
+
+        font-weight: 100;
+        font-size: 15PX;
+        letter-spacing: 0.5px;
+        color: rgb(211,211,211);
+         font-family: "Staatliches", cursive;
+    }
+    .wheretowatch{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+        margin-top: 15px;
+        margin-left: 8px;
+        margin-right: 8px;
+        color: #000;
+        background-color:#fff;
+        padding: 6px;
+        border-radius: 4px;
+    }
+    .Awards{
+        display: flex;
+        gap: 6px;
+        margin-top: 12px;
+ 
+    }
+    #ac{
+              margin-top: 2.5px;
+              padding-left: 0px;
+
+    }
+    #ar{
+        margin-top: 2.5px;
+
+    }
+    .overview{
+        margin-top: 8px;
+        display: flex;
+        gap: 7px;
+        margin-top: 14px;
+        color: rgb(211,211,211) !important;
+        line-height: 20px;
+        letter-spacing: 1px !important;
+    }
+    #av{
+        margin-top: 14px;
+    }
+    .seasons{
+        display: flex;
+        gap: 15px;
+        padding-left: 3px;
+        letter-spacing: 2px;
+        margin-top: 10px;
+    }
+    .w {
+        display: flex;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 5px;
+        color:#fff;
+        padding:8px;
+        gap:12px;
+        padding-left: 2px;
+      }
+      .dish{
+        font-size: 15px;
+        margin-top: -1px;
+      }
+      .t {
+        padding-top: 1px;
+        font-family: "Staatliches", cursive;
+        letter-spacing: 1px;
+        font-size: 12px;
+      }
+      .ott {
+        font-size: 10px;
+        font-variant-caps: all-petite-caps;
+        background:#f00;
+        color: white;
+        padding: 1px 4px 1px 4px;
+        box-sizing: border-box;
+        margin-top: -0.5px;
+      }
+      .more {
+        font-family: "Staatliches", cursive;
+        color: white;
+        margin-top: 8px;
+        font-size: 12px;
+        padding-left: 2px
+      }
+      .rel {
+        width: 100px !important;
+        height: 55px !important;
+        background-color: grey;
+        margin-top: 8px;
+        border-radius: 4px;
+        outline: none;
+        border: none;
+      }
+      
+      .more_like{
+        border-bottom: 3px solid gray;
+      }
+      .r {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        height: auto;
+        display: flex;
+      }
+      .similar{
+           display: flex;
+           margin-top: 11px;
+           overflow-x:scroll ;
+           gap: 10px;
+           margin-bottom: 2px;
+      }
+      .trailer{
+        color: black;
+        background:#ffffff;
+        font-size: 13px;
+        height: 20px;
+        width: fit-content;
+        padding: 0px 8px 0px 8px;
+        border-radius: 2px;
+      }
+      .similar_pic{
+        width: 170px;
+        height: 100px;
+        border-radius: 4px;
+      }
+      .similar_title{
+        font-size: 10px;
+        text-align: center;
+        color: white;
+        letter-spacing: 0.8px;
+        margin-top: 2px;
+      }
+      .border_line{
+        height: 2.5px;
+        background:#f00;
+        margin-top: 6px;
+      }
+      .similar::-webkit-scrollbar{
+        display: none;
+      }
+      .short_flim_scroll::-webkit-scrollbar{
+        display: none;
+                font-family: "Staatliches", cursive;
+
+      }
+}
+   
